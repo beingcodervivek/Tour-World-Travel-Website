@@ -1,0 +1,134 @@
+body
+
+{
+
+background-image: url("air.jpg");
+
+background-size: cover;
+background-position:center;
+}
+
+.booking-form-box{
+
+max-width: 350px;
+border: 1px solid #02101f;
+margin: 10% auto 0;
+ }
+
+ .radio-btn
+
+ {
+  margin: 0 20px;
+ 
+  }
+  .radio-btn.btn
+  {
+ margin: 20px 10px 20px 0;
+ box-shadow: none;
+ }
+ 
+ .radio-btn.btn::after
+  {
+ content: ' ';
+ height: 15px;
+ width: 15px;
+ top: -2px;
+ left: -1px;
+ background-color: #f9f6f6;
+ position: relative;
+ display: inline-block;
+ border: 3px solid #1f1c1c;
+ visibility: visible;
+ border-radius: 50%;
+ 
+  }
+ 
+ .radio-btn.btn:checked::after
+ {
+ content: ' ';
+ background-color: #000;
+ transition: 0.5s;
+  }
+ 
+ .radio-btn span
+  {
+ color: #262323;
+ margin-right: 5px;
+ font-size: 12px;
+  }
+
+  .booking-form{
+    padding: 20px 20px;
+    }
+    
+    .booking-form label {
+    margin-bottom: 5px;
+    margin-top: 10px;
+    font-size: 12px;
+    color: #2a2727;
+    }
+
+    input::placeholder
+    {
+    color: #201e1e !important;
+    }
+
+    .input-grp
+    {
+    width: 151px;
+    display: inline-block;
+    }
+    
+    .form-control{
+    font-size: 12px !important ;
+    border-radius: 0 !important;
+    color: #2a86d6e2 !important;
+    background: transparent !important;
+    box-shadow: none !important;
+    
+    }
+    
+    .select-date::-webkit-inner-spin-button,
+    .select-date::-webkit-outer-spin-button
+    
+    {
+    -webkit-appearance: none;
+    margin: 0;
+    }
+    
+    .select-date::-webkit-calendar-picker-indicator
+    {
+    background: transparent !important;
+    }
+    
+    .custom-select
+    {
+    color: #021508 !important ;
+    font-size: 12px !important ;
+    border: 1px solid #0b7dee !important ;
+    box-shadow: none !important ;
+    border-radius:0 !important ;
+    }
+    
+    .custum-select option{
+    color:#1c11eb;
+    }
+    
+    .flight
+    {
+    width:100%;
+    padding:9px 0;
+    font-size: 12px;
+    border: 1px solid #0679ed !important ;
+    background: transparent !important;
+    box-shadow: none !important ;
+    border-radius: 0 !important ;
+    }
+
+
+.flight:hover
+{
+background: #0c0000 !important; 
+color: #e61111 !important;
+transition: 0 5s;
+}

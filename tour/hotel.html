@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="hotel.css" />
+    <title>Web Design Mastery | Simran</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav__bar">
+        <div class="nav__header">
+          <div class="logo nav__logo">
+            <div>H</div>
+            <span>THE<br />HOTEL</span>
+          </div>
+          <div class="nav__menu__btn" id="menu-btn">
+            <i class="ri-menu-line"></i>
+          </div>
+        </div>
+        <ul class="nav__links" id="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#room">Room</a></li>
+          <li><a href="#feature">Feature</a></li>
+          <li><a href="#menu">Food</a></li>
+          <li><a href="#news">News</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <header class="header" id="home">
+      <div class="section__container header__container">
+        <p class="section__subheader">ABOUT US</p>
+        <h1>A Perfect<br />Shed For You</h1>
+        <button class="btn">Take A Tour</button>
+      </div>
+    </header>
+
+    <section class="booking">
+      <div class="section__container booking__container">
+        <form action="/">
+          <div class="input__group">
+            <label for="arrival">Arrival Date</label>
+            <input type="text" placeholder="Your Arrival Date" />
+          </div>
+          <div class="input__group">
+            <label for="departure">Departure Date</label>
+            <input type="text" placeholder="Your Departure Date" />
+          </div>
+          <div class="input__group">
+            <label for="guests">Guests</label>
+            <input type="text" placeholder="No Of Guests" />
+          </div>
+          <button class="btn">Check Availability</button>
+        </form>
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <div class="section__container about__container">
+        <div class="about__grid">
+          <div class="about__image">
+            <img src="swim.jpeg" alt="about" />
+          </div>
+          <div class="about__card">
+            <span><i class="ri-user-line"></i></span>
+            <h4>Supportive Team</h4>
+            <p>
+              Unlocking Hospitality Excellence And Ensures Your Perfect Stay
+            </p>
+          </div>
+          <div class="about__image">
+            <img src="room.jpeg" alt="about" />
+          </div>
+          <div class="about__card">
+            <span><i class="ri-calendar-check-line"></i></span>
+            <h4>Luxury Room</h4>
+            <p>Experience Unrivaled Luxury at Our Exquisite Luxury Rooms</p>
+          </div>
+        </div>
+        <div class="about__content">
+          <p class="section__subheader">ABOUT US</p>
+          <h2 class="section__header">Discover Our Underground</h2>
+          <p class="section__description">
+            Welcome to a hidden realm of extraordinary accommodations where
+            luxury, comfort, and adventure converge. Our underground hotels
+            offer an unparalleled escape from the ordinary, inviting you to
+            explore a subterranean world of wonders.
+          </p>
+          <button class="btn">Book Now</button>
+        </div>
+      </div>
+    </section>
+
+
+
+    <section class="room__container" id="room">
+      <p class="section__subheader">ROOMS</p>
+      <h2 class="section__header">Your OWN Picked Rooms</h2>
+      <div class="room__grid">
+        <div class="room__card">
+          <img src="western.jpeg" alt="room" />
+          <div class="room__card__details">
+            <div>
+              <h4>WESTERN LUX</h4>
+              <p>A MODERN bedroom with a warm, inviting atmosphere with a full furnished decor.</p>
+            </div>
+            <h3>INR 5999<span>/night</span></h3>
+          </div>
+        </div>
+        <div class="room__card">
+          <img src="wood.jpeg" alt="room" />
+          <div class="room__card__details">
+            <div>
+              <h4>Family WOOOD</h4>
+              <p>There is something so timeless , and classic about hardwood floors. they have been used for centuries for good reason!</p>
+            </div>
+            <h3>INR 3999<span>/night</span></h3>
+          </div>
+        </div>
+        <div class="room__card">
+          <img src="asthetic.jpeg" alt="room" />
+          <div class="room__card__details">
+            <div>
+              <h4>SILENT KILLERS</h4>
+              <p>
+                Top-tier accommodations usually on the highest floors of a
+                hotel.
+              </p>
+            </div>
+            <h3>INR 2999<span>/night</span></h3>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="intro">
+      <div class="section__container intro__container">
+        <div class="intro__cotent">
+          <p class="section__subheader">INTRO VIDEO</p>
+          <h2 class="section__header">Meet With your Rooms</h2>
+          <p class="section__description">
+            Whether you're on a exclusive hideaway or an immersive
+            journey beneath the surface, Hotel Simran promises to be an
+            unforgettable stay, where the depths of comfort and excitement await
+            your arrival.
+          </p>
+          <button class="btn">Book Now</button>
+        </div>
+        <div class="intro__video">
+          <video src="luxury.mp4" autoplay muted loop></video>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container feature__container" id="feature">
+      <p class="section__subheader">FACILITIES and Offers</p>
+      <h2 class="section__header">Core Features</h2>
+      <div class="feature__grid">
+        <div class="feature__card">
+          <span><i class="ri-thumb-up-line"></i></span>
+          <h4>Have High Rating</h4>
+          <p>
+            We take pride in curating a selection of hotels that consistently
+            receive high ratings and positive reviews.
+          </p>
+        </div>
+        <div class="feature__card">
+          <span><i class="ri-time-line"></i></span>
+          <h4>Quite Hours</h4>
+          <p>
+            We understand that peace and uninterrupted rest are essential for a
+            rejuvenating experience.
+          </p>
+        </div>
+        <div class="feature__card">
+          <span><i class="ri-map-pin-line"></i></span>
+          <h4>Best Location</h4>
+          <p>
+            At our hotel booking website, we take pride in offering
+            accommodations in the most prime and sought-after locations.
+          </p>
+        </div>
+        <div class="feature__card">
+          <span><i class="ri-close-circle-line"></i></span>
+          <h4>Free Cancellation</h4>
+          <p>
+            We understand that travel plans can change unexpectedly, which is
+            why we offer the flexibility of free cancellation.
+          </p>
+        </div>
+        <div class="feature__card">
+          <span><i class="ri-wallet-line"></i></span>
+          <h4>Payment Options</h4>
+          <p>
+            Our hotel booking website offers a range of convenient payment
+            options to suit your preferences.
+          </p>
+        </div>
+        <div class="feature__card">
+          <span><i class="ri-coupon-line"></i></span>
+          <h4>Special Offers</h4>
+          <p>
+            Whether you're planning a romantic getaway, or a business trip, our
+            carefully curated special offers cater to all your needs.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="menu" id="menu">
+      <div class="section__container menu__container">
+        <div class="menu__header">
+          <div>
+            <p class="section__subheader">MENU</p>
+            <h2 class="section__header">Famous indian Food Menu</h2>
+          </div>
+          <div class="section__nav">
+            <span><i class="ri-arrow-left-line"></i></span>
+            <span><i class="ri-arrow-right-line"></i></span>
+          </div>
+        </div>
+        <ul class="menu__items">
+          <li>
+            <img src="samosa.jpg" alt="menu" />
+            <div class="menu__details">
+              <h4>Samosa & chutney</h4>
+              <p>
+                A samosa is a fried South Asian pastry with a savoury filling, including ingredients such as spiced potatoes, onions, peas, meat, or fish.
+              </p>
+            </div>
+          </li>
+          <li>
+            <img src="dosa.jpg" alt="menu" />
+            <div class="menu__details">
+              <h4>Dosa</h4>
+              <p>
+                A dosa is a thin savory crepe in South Indian cuisine made from a fermented batter of ground black gram and rice.
+              </p>
+            </div>
+          </li>
+          <li>
+            <img src="sandwich.jpeg" alt="menu" />
+            <div class="menu__details">
+              <h4>Sandwich</h4>
+              <p>
+                A sandwich is a food prepared by placing different kinds of foods between two pieces of bread.
+              </p>
+            </div>
+          </li>
+          <li>
+            <img src="idli.jpeg" alt="menu" />
+            <div class="menu__details">
+              <h4>Idli</h4>
+              <p>
+                Idli is a healthy breakfast that is served with delicious coconut chutney and sambar. Idli is soft and fluffy.
+              </p>
+            </div>
+          </li>
+          <li>
+            <img src="paneer.jpeg" alt="menu" />
+            <div class="menu__details">
+              <h4>Paneer tikka</h4>
+              <p>
+                Paneer tikka or Paneer Soola or Chhena Soola is an Indian dish made from chunks of paneer/ chhena marinated in spices and grilled in a tandoor.
+              </p>
+            </div>
+          </li>
+          <li>
+            <img src="bhatore.avif" alt="menu" />
+            <div class="menu__details">
+              <h4>Chole Bhatore</h4>
+              <p>
+                Chole bhature is a food dish popular in the Northern areas of the Indian subcontinent. It is a combination of chana masala (spicy white chickpeas) and bhatura/puri, a deep-fried bread made from maida.
+              </p>
+            </div>
+          </li>
+        </ul>
+        <div class="menu__images">
+          <img src="biryani.jpeg" alt="menu" />
+          <img src="omlet.jpeg" alt="menu" />
+          <img src="cakes.jpeg" alt="menu" />
+        </div>
+        
+      </div>
+    </section>
+
+    <section class="section__container news__container" id="news">
+      <div class="news__header">
+        <div>
+          <p class="section__subheader">BLOG</p>
+          <h2 class="section__header">Customers Feeds</h2>
+        </div>
+        <div class="section__nav">
+          <span><i class="ri-arrow-left-line"></i></span>
+          <span><i class="ri-arrow-right-line"></i></span>
+        </div>
+      </div>
+      <div class="news__grid">
+        <div class="news__card">
+          <img src="news1.webp" alt="news" />
+          <div class="news__card__title">
+            <p>25th March 2023</p>
+            <p>By Aman</p>
+          </div>
+          <h4>Exploring Local Culinary Gems: A Foodie's Guide.</h4>
+          <p>
+            Join Aman as she takes you on a gastronomic adventure through the
+            neighborhood surrounding our hotel.
+          </p>
+        </div>
+        <div class="news__card">
+          <img src="news2.jpeg" alt="news" />
+          <div class="news__card__title">
+            <p>15th June 2023</p>
+            <p>By simran </p>
+          </div>
+          <h4>Balancing Mind, Body, and Soul at Our Hotel.</h4>
+          <p>
+            Discover holistic spa treatments, fitness facilities, and
+            mindfulness practices that will leave you feeling refreshed.
+          </p>
+        </div>
+        <div class="news__card">
+          <img src="news3.jpeg" alt="news" />
+          <div class="news__card__title">
+            <p>08th August 2023</p>
+            <p>By Sara</p>
+          </div>
+          <h4>Exploring Outdoor Activities Near Our Hotel.</h4>
+          <p>
+            From hiking and biking trails to water sports and wildlife
+            encounters, she highlights ways to experience nature's wonders.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="section__container footer__container">
+        <div class="footer__col">
+          <div class="logo footer__logo">
+            <div>H</div>
+            <span> THE <br /> HOTEL</span>
+          </div>
+          <p class="section__description">
+            THE HOTEL provide you a pool, spa, gym, restaurant, or bar . As well as free breakfast. Rooms – Inform consumers of the types of rooms you have and point out if they are accessible, spacious, modern, or well-appointed.
+          </p>
+        
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="hotel.js"></script>
+  </body>
+</html>

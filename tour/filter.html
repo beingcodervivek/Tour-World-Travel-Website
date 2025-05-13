@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>filter Search</title>
+    <style>
+
+    .form-group {
+      margin-bottom: 15px;
+    }
+  
+    body{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      background: url(Varkala.jpg) no-repeat;
+      background-size: cover;
+      background-position: center;
+  
+  }
+    
+    label {
+      display: block;
+      margin-bottom: 5px;
+    }
+    
+    input[type="text"],
+    select,
+    input[type="date"] {
+      width: 100%;
+      padding: 8px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    
+    button[type="submit"] {
+      padding: 10px 20px;
+      background-color: #007bff;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    
+    button[type="submit"]:hover {
+      background-color: #0056b3;
+    }
+</style>
+    
+
+
+</head>
+<body>
+    
+<div class="pm">
+<h1> TOURIST SEARCH </h1>
+
+    <div class="searchbar">
+        <label for="location">Location:</label>
+        <form action="https://www.google.com/search">
+              <input type="text" placeholder="search your next tourist location" name="q" align="center" style="width: 200px; height:30px">
+      
+      
+     
+    <div class="form-group">
+      <label for="priceRange">Price Range:</label>
+      <select id="priceRange" name="priceRange">
+        <option value="0-100">Rs 0- Rs 2000</option>
+        <option value="100-200">Rs 2000 - Rs 4000</option>
+        <option value="200-300">Rs4000 - Rs 6000</option>
+      </select>
+    </div>
+    <div class="form-group">
+      <label for="dates">Dates:</label>
+      <input type="date" id="dates" name="dates">
+    </div>
+    <div class="form-group">
+      <label for="travelType">Type of Travel:</label>
+      <select id="travelType" name="travelType">
+        <option value="adventure">Adventure</option>
+        <option value="adventure">mountain</option>
+        <option value="adventure">greenland</option>
+        <option value="adventure">island</option>
+        <option value="beach">Beach</option>
+        <option value="city">City</option>
+      </select>
+    </div>
+
+      <button type="submit">Search</button>
+      </form>
+      </div>
+</div>
+
+</body>
+</html>
+  
